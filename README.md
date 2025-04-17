@@ -1,12 +1,44 @@
-# React + Vite
+# Проект на React и Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Этот проект представляет собой фронтенд-приложение, созданное с использованием React и Vite.
 
-Currently, two official plugins are available:
+## Установка и запуск
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. Убедитесь, что у вас установлен Node.js (версия 16 или выше)
+2. Клонируйте репозиторий (https://github.com/ksunchikk/cinema.git)
+3. Установите зависимости:
 
-## Expanding the ESLint configuration
+```bash
+cd cinema
+npm install
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Запустите проект в режиме разработки:
+
+```bash
+npm run dev
+```
+
+## Задачи для разработки
+
+Необходимо разработать страницу UserPage. Дизайн для этой страницы находится в папке `designs`.
+
+При разработке страницы UserPage обратите внимание на:
+
+- Соответствие предоставленному дизайну
+- Библиотеку компонентов Ant Design (https://ant.design/)
+
+## Структура проекта
+
+Основные папки:
+
+- `src/` - исходный код приложения
+- `public/` - статические файлы
+- `designs/` - макеты и дизайн-ресурсы
+
+## Скрипты
+
+- `dev` - запуск dev-сервера
+- `build` - сборка проекта
+- `preview` - предпросмотр собранного проекта
+- `lint` - проверка кода с ESLint
