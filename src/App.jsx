@@ -5,14 +5,22 @@ import "./App.css";
 import MainPage from "./pages/mainPage/MainPage";
 import MoviesPage from "./pages/moviesPage/MoviesPage";
 import MoviePage from "./pages/moviePage/MoviePage";
+import UserPage from "./pages/userPage/UserPage";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <>
-      <MoviePage />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/movies" element={<MoviesPage />} />
+        <Route path="/movie/:id" element={<MoviePage />} />
+        <Route path="/user" element={<UserPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

@@ -1,0 +1,73 @@
+.user-page-layout {
+  min-height: 100vh;
+}
+
+.user-page-header {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px;
+}
+
+.user-page-header-left {
+  display: flex;
+  gap: 16px;
+}
+
+.user-page-header-left a {
+  text-decoration: none;
+  color: #000;
+  font-size: 16px;
+}
+
+.user-page-header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.user-page-header-userinfo {
+  text-align: right;
+}
+
+.user-page-content {
+  margin: 16px;
+}
+
+.user-page-about {
+  margin-bottom: 16px;
+}
+
+.user-page-saved-movies .ant-card-body {
+  padding: 0;
+  text-align: left; /* Align text to the left */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Push content to the bottom */
+}
+
+.user-page-saved-movies .ant-list-item {
+  padding: 8px;
+}
+
+.user-page-saved-movies .ant-card {
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px !important;
+  height: 300px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+.ant-card-head-title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.user-page-saved-movie .ant-card-head-title {
+  font-size: 20px;
+  font-weight: bold;
+}
